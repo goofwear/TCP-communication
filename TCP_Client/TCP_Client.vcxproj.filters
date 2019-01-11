@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TCP Server.c">
+    <ClCompile Include="TCP Client.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
