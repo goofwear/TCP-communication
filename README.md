@@ -1,4 +1,4 @@
-# TCP-communicate
+# TCP-communication
 
 > 간단한 TCP 통신 프로그램입니다.
 
@@ -67,7 +67,7 @@ shield.io에서 뱃지를 선택하여 패키지, Release, 코드 커버리지, 
 
 ## 기여 방법
 
-1. [이 프로젝트](https://github.com/Lulin-Pollux/Audio_Player)를 포크합니다.
+1. [이 프로젝트](https://github.com/Lulin-Pollux/TCP-communication)를 포크합니다.
 2. GitHub Desktop에서 새 브랜치를 만드세요.
 3. 수정사항을 커밋하세요.
 4. 새 브랜치에 푸시하세요.
