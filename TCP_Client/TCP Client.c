@@ -80,6 +80,13 @@ int main()
 		if (strcmp(buffer, "/exit") == 0)
 			break;
 
+		//버퍼에 Null문자가 있는지 검사한다. (CWE-126)
+		if (strchr(buffer, '\0') == NULL)
+		{
+			printf("버퍼에 Null문자가 없습니다. (CWE-126) \n");
+			break;
+		}
+
 		//데이터를 송신한다.
 		retval = send(sock, buffer, (int)strlen(buffer) + 1, 0);
 		if (retval == SOCKET_ERROR)

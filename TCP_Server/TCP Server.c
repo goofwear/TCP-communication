@@ -106,7 +106,7 @@ int main()
 			printf("[TCP/%s:%d] %s\n", inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port), buffer);
 
 			//수신한 데이터를 그대로 송신한다.
-			retval = send(client_sock, buffer, (int)strlen(buffer) + 1, 0);
+			retval = send(client_sock, buffer, retval, 0);
 			if (retval == SOCKET_ERROR)
 			{
 				err_display("send()");
