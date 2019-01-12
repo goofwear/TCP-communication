@@ -9,7 +9,7 @@ void err_quit(char *msg)
 {
 	//에러 코드로부터 오류 메시지를 만든다.
 	LPSTR msgBuf;
-	FormatMessageA(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM, NULL,
+	FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM, NULL,
 		WSAGetLastError(), MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPTSTR)&msgBuf, 0, NULL);
 
 	//오류 메시지를 알림창으로 띄운다.
@@ -27,7 +27,7 @@ void err_display(char *msg)
 {
 	//에러 코드로부터 오류 메시지를 만든다.
 	LPSTR msgBuf;
-	FormatMessageA(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM, NULL,
+	FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM, NULL,
 		WSAGetLastError(), MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPTSTR)&msgBuf, 0, NULL);
 
 	//오류 메시지를 콘솔창에 출력한다.
