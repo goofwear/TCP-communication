@@ -25,7 +25,7 @@
 
 ## 사용 예시
 
-![test](사용 예시.gif)
+![how_to_use](https://github.com/Lulin-Pollux/TCP-communication/blob/master/imgs/How_to_use.gif)
 
 - 사용방법
   1. TCP_Server.exe를 실행한다.
