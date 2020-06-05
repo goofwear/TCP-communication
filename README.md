@@ -15,7 +15,7 @@
 
 ## Build Status
 
-[![Release version](https://img.shields.io/github/release/Lulin-Pollux/TCP-communication.svg?style=popout-square)](https://github.com/Lulin-Pollux/TCP-communication/releases/latest) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6cb3551acf2444d4a638f4c5132dff61)](https://www.codacy.com/app/Lulin-Pollux/TCP-communication?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lulin-Pollux/TCP-communication&amp;utm_campaign=Badge_Grade) ![Download count](https://img.shields.io/github/downloads/Lulin-Pollux/TCP-communication/total.svg?style=popout-square) ![License](https://img.shields.io/github/license/Lulin-Pollux/TCP-communication.svg?style=popout-square) 
+[![Release version](https://img.shields.io/github/release/Lulin-Pollux/TCP-communication.svg?style=popout-square)](https://github.com/Lulin-Pollux/TCP-communication/releases/latest) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6cb3551acf2444d4a638f4c5132dff61)](https://www.codacy.com/manual/Lulin/TCP-communication?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Lulin-Pollux/TCP-communication&amp;utm_campaign=Badge_Grade) ![Download count](https://img.shields.io/github/downloads/Lulin-Pollux/TCP-communication/total.svg?style=popout-square) ![License](https://img.shields.io/github/license/Lulin-Pollux/TCP-communication.svg?style=popout-square) 
 
 ## 설치 방법
 
